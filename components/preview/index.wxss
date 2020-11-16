@@ -1,0 +1,45 @@
+.container {
+    width: 320rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* overflow: hidden;  */
+    background: #fff;
+    margin-bottom: 48rpx;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20rpx;
+}
+
+.img {
+    width: 320rpx;
+    height: 240rpx;
+}
+
+.text {
+    padding: 30rpx 20rpx;
+    font-size: 28rpx;
+    height: 84rpx;
+    color: #999;
+    line-height: 42rpx;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-clamp: 2;
+    
+}
+
+.tag-components {
+    display: inline-block;
+    text-align: center;
+    background: #f7f7f7;
+    height: 56rpx;
+    line-height: 56rpx;
+    width: 86rpx;
+}

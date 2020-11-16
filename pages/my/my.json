@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+      "v-button": "/components/button/index",
+      "v-preview": "/components/preview/index"
+  }
+}

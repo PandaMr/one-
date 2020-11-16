@@ -1,0 +1,91 @@
+.container{
+    width: 750rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #f5f5f5;
+}
+.background-image{
+    width: 100%; 
+    height: 572rpx;
+}
+.header{ 
+    width: 750rpx;
+    height:  574rpx;
+    display: flex;
+    flex-direction: column;
+    color: #999;
+    position: absolute;
+    top: 254rpx;
+}
+.myInformation,.user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.avatar{
+    width: 120rpx;
+    height: 120rpx;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.name{ 
+    margin-top: 10rpx;
+    font-size: 36rpx;
+    color: #000000;
+}
+.my-like{
+    width: 750rpx;
+    margin-top: 16rpx;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
+}
+.about-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 28rpx;
+    width: 180rpx;
+
+}
+.about-us > image{
+    width: 40rpx;
+    height: 40rpx;
+    margin-bottom: 10rpx;
+}
+
+.books{
+    font-size: 28rpx;
+    width: 180rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.book-numbers{
+    font-size: 48rpx;
+    color: #000000;
+}
+
+.like-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+} 
+.likeText{
+    width: 110rpx;
+    height: 48rpx;
+    padding: 36rpx 0 18rpx 0;
+}
+.preview-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap
+}

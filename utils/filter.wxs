@@ -1,0 +1,21 @@
+// 正则替换 换行
+var format = function(text){
+    // 如果传入的为空则中断
+    if(!text){
+        return
+    }
+    // 获取正则表达式  查找\\n
+    var reg = getRegExp('\\\\n','g');
+    // 替换
+    return text.replace(reg, '\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;');
+}
+
+// 短评显示条数过滤
+var limit = function(array, length){
+    return array.slice(0, length);
+}
+
+module.exports = {
+    format: format,
+    limit: limit
+}

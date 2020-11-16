@@ -1,0 +1,18 @@
+<view class="container">
+
+    <view class="header">
+        <v-date index="{{classify.index}}" />
+        <!-- 监听自定义事件 like -->
+        <view class="like-container">
+            <v-like bind:like='onlike' like="{{likeStatus}}" count="{{likeCount}}" />
+            <v-button class="share-btn" open-type="share">
+                <image class="share" slot="img" src="/static/images/share.png"></image>
+            </v-button>
+        </view>
+    </view>
+
+    <v-movie wx:if="{{classify.type==100}}" content="{{classify.content}}" img="{{classify.image}}" />
+    <v-music wx:if="{{classify.type==200}}" content="{{classify.content}}" img="{{classify.image}}" url="{{classify.url}}" title="{{classify.title}}" />
+    <v-essay wx:if="{{classify.type==300}}" content="{{classify.content}}" img="{{classify.image}}" />
+    <v-nav class="nav" first="{{first}}" latest="{{latest}}" bind:left="onNext" bind:right="onPrevious" title="{{classify.title}}" />
+</view>

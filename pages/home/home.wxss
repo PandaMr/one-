@@ -1,0 +1,36 @@
+.container{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20rpx;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:10rpx 20rpx;
+}
+.nav{
+    position: absolute;
+    bottom: 50rpx;
+}
+.like-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.share-btn{
+    margin-left: 20rpx;
+}
+button:not([size='mini']){
+    width: 40rpx;
+}
+.share{
+    width: 28rpx;
+    height: 28rpx;
+}

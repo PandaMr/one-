@@ -1,0 +1,14 @@
+/**app.wxss**/
+page{
+    font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","HeitiSC","WenQuanYi Micro Hei",sans-serif,"MingLiU","PingFangSC-Thin";
+    font-size: 32rpx;   
+}
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 0px 20rpx; */
+  box-sizing: border-box;
+} 

@@ -1,0 +1,9 @@
+<view class="container">
+    <view class="header">
+        <v-tag class="tag-components" text="{{typeText}}" />
+        <v-like like="{{true}}" count="{{classify.fav_nums}}" />
+    </view>
+    <!-- <image class="img" src="/components/classify/movie/images/movie.4.png"></image> -->
+    <image class="img" src="{{imageType}}"></image>
+    <view class="text">{{classify.content}}</view>
+</view>

@@ -1,0 +1,3 @@
+<button bind:tap="onGetToken">获取token</button>
+<button bind:tap="onVerifyToken">验证token</button>
+<button bind:tap="onGetLatest">获取最新期刊</button>

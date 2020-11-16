@@ -1,0 +1,5 @@
+<view bind:tap="onClick" class="container">
+    <text>{{text}}</text>
+    <!-- slot插槽显示评论数 -->
+    <slot name="after"></slot>
+</view>
